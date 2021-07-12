@@ -10,6 +10,7 @@ function user {
   cd $user_path
   nvm use v12.16.1
   yarn
+  npm install mongoose
   yarn add mongoose
   npm install -g nodemon
   node src/index.js
